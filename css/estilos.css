@@ -1,6 +1,39 @@
 /* esto es un comentario en css*/
+/*este * es para el inicio de reseteo principal del codigo padding margin box-sizing osea limpia los estilos
+por defecto que coloca el navegador*/
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(44, 126, 19);
     color: beige;
+    
 }
-main {background-color: rgb(168, 86, 148);}
+
+main {
+    background-color: rgb(168, 86, 148);
+}
+
+/* este tipo de selector es el que mas se usa */
+.parrafo {
+    color: rgb(0, 0, 0);
+}
+
+#titulodestacado {
+    font-size: 50px;
+    text-align: center;
+}
+/*
+con color se aplica color a un texo y con background-color es para un fondo
+*/
+
+.colores {
+    background-color: chartreuse;
+    color: rgb(151, 36, 36);
+}
+.gradiente {
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,116,9,1) 35%, rgba(9,198,40,0.8827906162464986) 76%, rgba(185,236,9,1) 95%, rgba(0,212,255,1) 100%);
+}
