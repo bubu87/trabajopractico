@@ -1,1 +1,6 @@
 /* esto es un comentario en css*/
+body {
+    background-color: rgb(44, 126, 19);
+    color: beige;
+}
+main {background-color: rgb(168, 86, 148);}
